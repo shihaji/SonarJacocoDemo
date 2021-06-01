@@ -1,0 +1,8 @@
+start server = startsonar
+stop server = ctrl+c
+java version = java 11
+
+add in environment variable upto = C:\<folder>\<folder>\<folder>\sonarqube-8.9.0.43852\sonarqube-8.9.0.43852\bin\windows-x86-64
+
+clean test   -- Jacoco
+clean verify sonar:sonar -Dsonar.login=<key>  -- SonarQube  
